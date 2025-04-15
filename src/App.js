@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Navbar from './Navbar'; // Import the Navbar component
+import IntroSection from './IntroSection'; // Import the IntroSection component
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="min-h-screen flex flex-col lg:block">
+      {/* Top half - gradient background */}
+      <div className="h-1/2-screen-mobile lg:h-screen bg-gradient-to-t from-indigo-200 overflow-hidden">
+        <Navbar />
+        <IntroSection />
+      </div>
+      
+      {/* Bottom half - white background */}
+      <div className="h-1/2-screen-mobile  bg-white"></div>
     </div>
   );
 }
