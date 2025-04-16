@@ -3,7 +3,10 @@ module.exports = {
   theme: {
     extend: {
       screens: {
-        sm: "480px", // Custom screen size breakpoint
+        sm: "480px",
+        md:"768px",
+        lg:"1024px",
+        xl:"1280px", // Custom screen size breakpoint
       },
       spacing:{
         "big":"48rem"

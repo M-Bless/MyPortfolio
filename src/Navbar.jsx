@@ -28,10 +28,10 @@ function Navbar() {
       <div class="container mx-auto py-5 flex justify-between items-center">
         <ul class="hidden md:flex space-x-10 text-gray-600 font-bold uppercase absolute right-40">
           <li class="hover:text-gray-500"><a href='#'>homepage</a></li>
-          <li class="hover:text-gray-500"><a href='#'>about me</a></li>
-          <li class="hover:text-gray-500"><a href='#'>services</a></li>
-          <li class="hover:text-gray-500"><a href='#'>projects</a></li>
-          <li class="hover:text-gray-500"><a href='#'>contact</a></li>
+          <li class="hover:text-gray-500"><a href='#AboutMe'>about me</a></li>
+          <li class="hover:text-gray-500"><a href='#Services'>services</a></li>
+          <li class="hover:text-gray-500"><a href='#Projects'>projects</a></li>
+          <li class="hover:text-gray-500"><a href='#Contacts'>contact</a></li>
         </ul>
 
         <img src='/images/cresent.jpg' alt='logo' className="hidden md:block w-8 h-8 rounded-full cursor-pointer z-20" />
