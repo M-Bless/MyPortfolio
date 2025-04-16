@@ -1,19 +1,23 @@
 import React from 'react';
 import Navbar from './Navbar'; // Import the Navbar component
-import IntroSection from './IntroSection'; // Import the IntroSection component
+import IntroSection from './IntroSection'; 
+import AboutMe from './AboutMe';
+import Services from './Services';
 
 function App() {
   return (
-    <div className="min-h-screen flex flex-col lg:block">
-      {/* Top half - gradient background */}
-      <div className="h-1/2-screen-mobile lg:h-screen bg-gradient-to-t from-indigo-200 overflow-hidden">
+    <div>
+    
+    
         <Navbar />
         <IntroSection />
+        <AboutMe/>
+        <Services/>
       </div>
       
-      {/* Bottom half - white background */}
-      <div className="h-1/2-screen-mobile  bg-white"></div>
-    </div>
+     
+      
+      
   );
 }
 
