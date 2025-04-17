@@ -2,12 +2,13 @@ import React from 'react'
 
 const Contacts = () => {
   return (
-    <div class="bg-gray-300 py-10">
+    <div id="Contact" class="bg-gray-300 py-10">
       <div class="container mx-auto ">
       <div class="flex flex-col gap-3 items-center">
       <h1 class="text-indigo-600 font-bold">CONTACTS</h1>
       <h1 class="text-3xl font-bold">Have a Question?</h1>
-      <p class="w-1/2 text-center text-gray-400">mobile Developer and UI/UX designer mggyftttufuu fyuugugi</p>
+      <p class="w-1/2 text-center text-gray-400">Feel free to reach out for collaborations, inquiries, or just to connect. 
+      I’m always open to new opportunities and ideas!</p>
       </div>
 
    <form class="flex flex-col gap-5 items-center mt-5 p-8">

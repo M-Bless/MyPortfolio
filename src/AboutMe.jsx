@@ -2,10 +2,10 @@ import React from 'react'
 
 const AboutMe = () => {
   return (
-    <div class="px-10 bg-gray-200">
+    <div id="AboutMe" class="px-10 bg-gray-200">
     <div class="container mx-auto py-20 flex flex-col-reverse lg:flex-row gap-20 ">
       <div class="relative ">
-        <div class="h-full rounded-full overflow-hidden pt-0 ">
+        <div class="h-full w-full rounded-full overflow-hidden pt-0 ">
             <img class="bg-indigo-300 " src="/images/myimage.png" alt=''/>
         </div>
       </div>
@@ -14,7 +14,9 @@ const AboutMe = () => {
       <h1 class="text-3xl font-bold">Better Design</h1>
       <h1 class="text-3xl font-bold">Better Experience</h1>
       <p class="text-gray-400">
-        mobile Developer and UI/UX designer mggyftttufuu fyuugugi
+      I'm a passionate mobile developer skilled in Flutter and Kotlin, creating clean, user-friendly apps. 
+      I also build responsive web interfaces with React, HTML, and CSS.
+       With a strong grasp of Python and Data Structures, I love solving real-world problems, especially in health tech and AI.
       </p>
       <h2 class="text-gray-400 font-medium">HTML</h2>
       <div class="w-full bg-gray-200 h-1.5 rounded-md">
