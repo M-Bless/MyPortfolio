@@ -18,10 +18,6 @@ const AboutMe = () => {
       I also build responsive web interfaces with React, HTML, and CSS.
        With a strong grasp of Python and Data Structures, I love solving real-world problems, especially in health tech and AI.
       </p>
-      <h2 class="text-gray-400 font-medium">HTML</h2>
-      <div class="w-full bg-gray-200 h-1.5 rounded-md">
-        <div class="w-full bg-indigo-600 h-1.5 rounded-md"></div>
-      </div>
       <h2 class="text-gray-400 font-medium">Javascript</h2>
       <div class="w-full bg-gray-200 h-1.5 rounded-md">
         <div class="w-3/4 bg-indigo-600 h-1.5 rounded-md"></div>

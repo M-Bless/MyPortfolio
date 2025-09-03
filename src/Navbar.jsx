@@ -46,7 +46,7 @@ function Navbar() {
           <li class="hover:text-gray-500"><a href='#Contact'>contact</a></li>
         </ul>
 
-        <img src='/images/cresent.jpg' alt='logo' className="hidden md:block w-8 h-8 rounded-full cursor-pointer z-20" />
+       
 
         <div id="hamburger" class="space-y-1 md:hidden cursor-pointer z-40 ml-auto">
           <div class="w-6 h-0.5 bg-black transition-all duration-300"></div>

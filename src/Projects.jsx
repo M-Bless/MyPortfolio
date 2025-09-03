@@ -9,7 +9,9 @@ const Projects = () => {
       <h1 class="text-3xl">Works and Projects</h1>
       <p class="w-1/2 text-center text-gray-400">I’ve worked on a variety of projects that combine mobile development, UI/UX design, and AI solutions. 
       From developing health-focused mobile apps to designing intuitive websites, my projects reflect a strong commitment to creating seamless, user-friendly experiences. 
-      Check out some of my work below</p>
+      Check out some of my work below.
+      Here is my github link : <a class="text-red-500" rel="" target="_blank" href="https://github.com/M-Bless"><u>M-Bless</u></a>
+      </p>
       </div>
 
   <div class="p-5 m-1 flex flex-wrap justify-between ">
