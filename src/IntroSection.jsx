@@ -21,7 +21,7 @@ function IntroSection() {
           {/* Auto-typing effect for roles */}
           <ReactTyped
             className="text-red-500 block"
-            strings={['Developer', 'Designer', 'Engineer', 'Tech Enthusiast']} // Texts that will be typed
+            strings={['Frontend Developer','Mobile Developer', 'Tech Enthusiast']} // Texts that will be typed
             typeSpeed={50}  // Speed at which letters appear
             backSpeed={30}  // Speed at which text is deleted
             loop           // Repeat the typing animation forever
@@ -31,9 +31,9 @@ function IntroSection() {
         <div className="hidden lg:flex flex-col absolute top-0 bottom-0  m-auto gap-5 rounded-md shadow-lg right-10 bg-white p-6 h-fit w-1/3">
           <h1 className="text-4xl font-bold text-indigo-900">Hi, I'm Blessing</h1>
           <p className="text-gray-400">
-          I'm a passionate mobile developer who loves turning ideas into real, usable apps. 
-          I'm also really into data and AI — I enjoy finding smart ways to make apps not just work, but think. Whether it's building clean interfaces or digging into data,
-           I’m always excited to learn, create, and solve real-world problems with tech.
+I’m a passionate frontend and mobile developer who loves turning ideas into real, usable applications. I enjoy creating clean, responsive interfaces and making sure apps are intuitive and user-friendly.
+I’m also interested in data and AI, and I like finding smart ways to make apps not just work, but think. Whether it’s building a polished user interface or exploring how data can improve the experience, I’m always excited to learn, create, and solve real-world problems with technology.
+I’m looking to grow as a developer and contribute to projects where I can make a tangible impact while continuing to learn and improve my skills.
           </p>
           <a
             className="bg-indigo-600 text-white text-xl px-3 py-2 rounded-md font-semibold w-fit"
